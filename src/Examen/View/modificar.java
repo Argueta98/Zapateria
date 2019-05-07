@@ -52,6 +52,7 @@ Conexion con;
         jMenuItem2 = new javax.swing.JMenuItem();
 
         setTitle("Modificar Contraseña");
+        setBackground(new java.awt.Color(255, 153, 51));
         setMinimumSize(new java.awt.Dimension(400, 400));
         setResizable(false);
 

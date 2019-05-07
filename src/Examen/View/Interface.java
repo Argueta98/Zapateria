@@ -376,7 +376,7 @@ public class Interface extends javax.swing.JFrame implements Runnable{
                 lbHora2PropertyChange(evt);
             }
         });
-        jPanel4.add(lbHora2, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 50, 160, -1));
+        jPanel4.add(lbHora2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 640, 160, -1));
 
         jLabel34.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Modificar", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 14), new java.awt.Color(255, 255, 255))); // NOI18N
         jPanel4.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 350, 800, 340));

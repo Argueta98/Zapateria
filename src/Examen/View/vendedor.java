@@ -131,7 +131,8 @@ public class vendedor extends javax.swing.JFrame implements Runnable{
         jMenuItem4 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Farmacia \"Las Lomas\" // Interfaz Vendedor");
+        setTitle("Zapateria MegaCalzadoShoes// Interfaz Vendedor");
+        setFocusableWindowState(false);
 
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -385,13 +386,11 @@ public class vendedor extends javax.swing.JFrame implements Runnable{
         jPanel2.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 300, -1, -1));
 
         jLabel8.setFont(new java.awt.Font("Tahoma", 1, 26)); // NOI18N
-        jLabel8.setForeground(new java.awt.Color(255, 0, 0));
         jLabel8.setText("$");
         jPanel2.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 280, 20, 60));
 
         jTtotal.setEditable(false);
         jTtotal.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jTtotal.setForeground(new java.awt.Color(255, 0, 0));
         jTtotal.setText("0.00");
         jPanel2.add(jTtotal, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 280, 220, 60));
 
@@ -456,7 +455,6 @@ public class vendedor extends javax.swing.JFrame implements Runnable{
 
         jTinvT.setEditable(false);
         jTinvT.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jTinvT.setForeground(new java.awt.Color(255, 0, 0));
         jTinvT.setText("0.00");
         jPanel6.add(jTinvT);
         jTinvT.setBounds(550, 380, 180, 46);
@@ -471,7 +469,6 @@ public class vendedor extends javax.swing.JFrame implements Runnable{
         jButton2.setBounds(370, 380, 120, 40);
 
         jLabel16.setFont(new java.awt.Font("Tahoma", 1, 26)); // NOI18N
-        jLabel16.setForeground(new java.awt.Color(255, 0, 0));
         jLabel16.setText("$");
         jPanel6.add(jLabel16);
         jLabel16.setBounds(530, 380, 17, 40);

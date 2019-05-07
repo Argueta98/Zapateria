@@ -156,7 +156,6 @@ public class factura extends javax.swing.JFrame {
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 210, -1, -1));
 
         jLabel18.setFont(new java.awt.Font("Tahoma", 1, 26)); // NOI18N
-        jLabel18.setForeground(new java.awt.Color(255, 0, 0));
         jLabel18.setText("$");
         getContentPane().add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 590, 20, 60));
 
@@ -165,6 +164,7 @@ public class factura extends javax.swing.JFrame {
         getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(121, 613, -1, -1));
 
         jTtotal.setEditable(false);
+        jTtotal.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jTtotal.setText("0.00");
         jTtotal.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

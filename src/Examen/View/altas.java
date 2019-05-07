@@ -117,7 +117,7 @@ public class altas extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jTam);
-        jTam.setBounds(180, 120, 252, 23);
+        jTam.setBounds(180, 120, 252, 30);
 
         jTuser.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jTuser.addActionListener(new java.awt.event.ActionListener() {
@@ -133,7 +133,7 @@ public class altas extends javax.swing.JFrame {
         jPanel1.add(jLabel14);
         jLabel14.setBounds(60, 290, 110, 16);
 
-        jCnivel.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jCnivel.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jCnivel.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Administrador", "Vendedor", "Capturista" }));
         jCnivel.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

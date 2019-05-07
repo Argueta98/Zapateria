@@ -101,7 +101,8 @@ Conexion con,query;
         jMenuItem4 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Farmacia \"Las Lomas\" // Interfaz Capturista");
+        setTitle("Zapateria \"Calzado Shoes\" // Interfaz Capturista");
+        setFocusable(false);
 
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
